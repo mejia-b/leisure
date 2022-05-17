@@ -1,20 +1,16 @@
-import Logo from './assets/images/Icon_Fill_Buildings.svg';
+import Navbar from './components/Navbar';
+import Walletbtn from './components/Walletbtn';
 
 function App() {
 	return (
 		<div className="bg-cover bg-center w-full h-screen bg-[url('./assets/images/background.png')]">
-			<div className='flex bg-white bg-opacity-70 shadow border py-5 px-8'>
-				<p className="ml-2 text-3xl text-[#331684] font-['GeneralSans-Semibold']">
-					<img src={Logo} alt='logo' /> ResortsOnChain
-				</p>
-			</div>
+			<Navbar />
+			<div className='flex bg-white bg-opacity-30 shadow  py-5 px-8'></div>
 
 			<div className='p-8'>
 				<p className='text-[#F9F8FF] text-lg'>
-					This page is currently under construction!
-					<button class='bg-[#8247e5] hover:bg-[#4A23A4] text-white font-regular py-4 px-8 shadow'>
-						Connect Wallet
-					</button>
+					This page is currently under construction! Check back later for more
+					updates!
 				</p>
 			</div>
 		</div>
