@@ -4,8 +4,6 @@ import Walletbtn from './Walletbtn';
 
 function Navbar() {
 	return (
-		// <div>Navbar</div>
-
 		<nav className='relative container mx-auto  p-3'>
 			{/* flex container */}
 			<div className='flex items-center justify-between'>
@@ -14,13 +12,15 @@ function Navbar() {
 					<img src={Logo} alt='logo' />
 				</div>
 				{/* Menu items */}
-				<div className='hidden md:flex space-x-16 text-white text-2xl'>
+				<div className='hidden md:flex space-x-16 mt-2 text-white text-2xl'>
 					<a href='#'>Featured Stays</a>
 					<a href='#'>About Us</a>
 					<a href='#'>Get Listed</a>
 					<a href='#'>Contact</a>
 					<a href='#'>Partners</a>
 					<a href='#'>About</a>
+				</div>
+				<div>
 					<Walletbtn />
 				</div>
 				{/* <p className="ml-2 text-3xl text-[#331684] font-['GeneralSans-Semibold']">

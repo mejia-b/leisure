@@ -1,5 +1,4 @@
 import Navbar from './components/Navbar';
-import Walletbtn from './components/Walletbtn';
 
 function App() {
 	return (
