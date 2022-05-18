@@ -14,13 +14,25 @@ function Navbar() {
 				</div>
 
 				{/* Menu items */}
-				<div className='hidden md:flex space-x-16 mt-2 text-white text-2xl'>
-					<a href='#'>Featured Stays</a>
-					<a href='#'>Get Listed</a>
-					<a href='#'>Roadmap</a>
-					<a href='#'>Partners</a>
-					<a href='#'>Contact</a>
-					<a href='#'>FAQ</a>
+				<div className='hidden md:flex space-x-16 mt-2 text-[#BE90F7] text-2xl'>
+					<a href='#' className='hover:text-white hover:font-bold'>
+						Featured Stays
+					</a>
+					<a href='#' className='hover:text-white hover:font-bold'>
+						Get Listed
+					</a>
+					<a href='#' className='hover:text-white hover:font-bold'>
+						Roadmap
+					</a>
+					<a href='#' className='hover:text-white hover:font-bold'>
+						Partners
+					</a>
+					<a href='#' className='hover:text-white hover:font-bold'>
+						Contact
+					</a>
+					<a href='#' className='hover:text-white hover:font-bold'>
+						FAQ
+					</a>
 				</div>
 				<div>
 					<Walletbtn />
