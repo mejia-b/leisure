@@ -5,6 +5,16 @@
 [Polygon Finity](https://finity.polygon.technology/) - Web3 Design System by Polygon
 
 # Development
+
+## Setting Up Moralis
+
+This project uses [Moralis](https://docs.moralis.io/) for wallet connect, which requires making calls to a server hosted by them.
+
+You will need to populate the server URL `REACT_APP_MORALIS_SERVER_URL` and application ID`REACT_APP_MORALIS_APPLICATION_ID` environment variables in a `.env` file. You can make a copy of `.env.template` at the root folder level and name it `.env`.
+
+### How to get the environment values
+
+You can find a testnet server URL and application ID in our team's Google Doc or create your own Polygon testnet server on Moralis.
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

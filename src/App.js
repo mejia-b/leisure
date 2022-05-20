@@ -1,8 +1,7 @@
-import Navbar from './components/Navbar';
-import Walletbtn from './components/Walletbtn';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
 import Faq from './components/Faq';
+
 function App() {
 	return (
 		<div className="bg-cover bg-center w-full h-screen bg-[url('./assets/images/background.png')]">
