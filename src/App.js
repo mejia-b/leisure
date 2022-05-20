@@ -5,8 +5,8 @@ import Nav from './components/Nav';
 function App() {
 	return (
 		<div className="bg-cover bg-center w-full h-screen bg-[url('./assets/images/background.png')]">
-			<Navbar />
-			{/* <Nav /> */}
+			{/* <Navbar /> */}
+			<Nav />
 			{/* <div className='flex bg-white bg-opacity-30 shadow  py-5 px-8'></div> */}
 
 			<section id='hero'>
