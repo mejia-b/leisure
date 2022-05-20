@@ -6,8 +6,7 @@ import Logo from '../assets/images/Icon_Fill_Buildings.svg';
 import Walletbtn from './Walletbtn';
 
 const user = {
-	name: 'Tom Cook',
-	email: 'tom@example.com',
+	name: 'Wallet Address/ENS',
 	imageUrl:
 		'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
 };
@@ -67,7 +66,7 @@ export default function Nav() {
 											href={item.href}
 											className={classNames(
 												item.current
-													? 'bg-gray-900 text-white'
+													? 'bg-[#4A23A4] text-white'
 													: 'text-gray-300 hover:bg-[#4A23A4] hover:text-white',
 												'px-3 py-2 rounded-md text-sm font-medium'
 											)}
@@ -172,9 +171,6 @@ export default function Nav() {
 								<div className='ml-3'>
 									<div className='text-base font-medium text-white'>
 										{user.name}
-									</div>
-									<div className='text-sm font-medium text-gray-400'>
-										{user.email}
 									</div>
 								</div>
 								<button
