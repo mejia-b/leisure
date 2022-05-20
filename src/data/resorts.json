@@ -1,0 +1,66 @@
+{
+	"data": [
+		{
+			"type": "resorts",
+
+			"resorts": [
+				{
+					"id": "1",
+					"name": "O Grande Placeholder Resort",
+					"location": "São Paulo, Brazil",
+					"currency": "MATIC",
+					"maticPrice": 250,
+					"amenities": ["Breakfast", "Wi-Fi", "Gym", "Alcohol", "Spa"],
+					"photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670",
+					"pet-friendly": false,
+					"accessible": true,
+					"smoking": false,
+					"check-in": "11:00am",
+					"check-out": "11:30am"
+				},
+				{
+					"id": "2",
+					"name": "Bald Moose Hotel",
+					"location": "Somewhere, Colorado",
+					"currency": "MATIC",
+					"maticPrice": 220,
+					"amenities": [
+						"Breakfast",
+						"Wi-Fi",
+						"Gym",
+						"Spa",
+						"Outdoor Pool",
+						"Jacuzzi"
+					],
+					"photo": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898",
+					"pet-friendly": false,
+					"accessible": true,
+					"smoking": true,
+					"check-in": "9:00am",
+					"check-out": "12:30pm"
+				},
+				{
+					"id": "3",
+					"name": "Giant Gator Grande Resort",
+					"location": "Probablyin, Florida",
+					"currency": "MATIC",
+					"maticPrice": 280,
+					"amenities": [
+						"Breakfast",
+						"Wi-Fi",
+						"Gym",
+						"Spa",
+						"Alcohol",
+						"Indoor Pool"
+					],
+					"photo": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374",
+					"pet-friendly": false,
+					"accessible": true,
+					"smoking": true,
+					"check-in": "9:00am",
+					"check-out": "12:30pm"
+				}
+			]
+		}
+	]
+}

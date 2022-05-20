@@ -5,9 +5,7 @@ import Faq from './components/Faq';
 function App() {
 	return (
 		<div className="bg-cover bg-center w-full h-screen bg-[url('./assets/images/background.png')]">
-			{/* <Navbar /> */}
 			<Nav />
-			{/* <div className='flex bg-white bg-opacity-30 shadow  py-5 px-8'></div> */}
 
 			<section id='hero'>
 				<Hero />
